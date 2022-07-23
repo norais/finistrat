@@ -24,6 +24,15 @@ public class Product {
     private String name;
     private BigDecimal price;
 
+    private String test;
+    
+    public String getTest() {
+		return test;
+	}
+    public void setTest(String test) {
+		this.test = test;
+	}
+    
     public String getName() {
         return name;
     }
