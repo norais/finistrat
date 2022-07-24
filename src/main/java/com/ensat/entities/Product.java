@@ -24,14 +24,14 @@ public class Product {
     private String name;
     private BigDecimal price;
 
-    private String test;
+    private String testS;
     
-    public String getTest() {
-		return test;
-	}
-    public void setTest(String test) {
-		this.test = test;
-	}
+ public String getTestS() {
+	return testS;
+}
+ public void setTestS(String testS) {
+	this.testS = testS;
+}
     
     public String getName() {
         return name;
